@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nikanstudio.github.io/Would-You-Survive-/sitemap.xml
