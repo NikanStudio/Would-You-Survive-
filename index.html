@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- BASIC SEO -->
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Would You Survive? | Interactive Survival Game</title>
+
+    <meta
+        name="description"
+        content="Would You Survive? Test your decisions in dangerous survival scenarios. Choose wisely and discover whether you survive.">
+
+    <meta
+        name="keywords"
+        content="survival game, interactive game, survival test, would you survive, decision game">
+
+    <meta name="author" content="Nikan Studio">
+
+    <!-- CANONICAL URL -->
+    <link
+        rel="canonical"
+        href="https://nikanstudio.github.io/Would-You-Survive-/">
+
+    <!-- LANGUAGE -->
+    <link
+        rel="alternate"
+        hreflang="en-GB"
+        href="https://nikanstudio.github.io/Would-You-Survive-/">
+
+    <link
+        rel="alternate"
+        hreflang="fa-IR"
+        href="https://nikanstudio.github.io/Would-You-Survive-/">
+
+    <!-- OPEN GRAPH -->
+    <meta
+        property="og:title"
+        content="Would You Survive?">
+
+    <meta
+        property="og:description"
+        content="Make your choices. Face dangerous scenarios. Would you survive?">
+
+    <meta
+        property="og:type"
+        content="website">
+
+    <meta
+        property="og:url"
+        content="https://nikanstudio.github.io/Would-You-Survive-/">
+
+    <!-- TWITTER -->
+    <meta
+        name="twitter:card"
+        content="summary">
+
+    <meta
+        name="twitter:title"
+        content="Would You Survive?">
+
+    <meta
+        name="twitter:description"
+        content="Test your survival decisions in interactive scenarios.">
+
+    <!-- FAVICON -->
+    <link
+        rel="icon"
+        href="favicon.png"
+        type="image/png">
+
+    <link
+        rel="stylesheet"
+        href="style.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <div class="logo">
+            WOULD YOU SURVIVE?
+        </div>
+
+        <div class="language-box">
+
+            <button
+                class="lang-btn active"
+                onclick="setLanguage('en')">
+
+                🇬🇧 English
+
+            </button>
+
+            <button
+                class="lang-btn"
+                onclick="setLanguage('fa')">
+
+                🇮🇷 فارسی
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+
+        <section class="hero">
+
+            <p class="small-title"
+               id="small-title">
+
+                THE ULTIMATE SURVIVAL TEST
+
+            </p>
+
+            <h1 id="main-title">
+
+                WOULD YOU SURVIVE?
+
+            </h1>
+
+            <p class="description"
+               id="description">
+
+                You will face dangerous situations.
+                Every choice changes your story.
+
+            </p>
+
+            <button
+                class="start-btn"
+                onclick="startGame()"
+                id="start-btn">
+
+                START THE TEST
+
+            </button>
+
+        </section>
+
+
+        <!-- GAME AREA -->
+        <section
+            class="game hidden"
+            id="game">
+
+            <div
+                class="progress"
+                id="progress">
+
+                Scenario 1
+
+            </div>
+
+
+            <h2
+                id="scenario-title">
+
+                You wake up alone in a forest.
+
+            </h2>
+
+
+            <p
+                id="scenario-text">
+
+                It is getting dark.
+                You hear something moving behind you.
+                What do you do?
+
+            </p>
+
+
+            <div
+                class="choices"
+                id="choices">
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p id="footer-text">
+
+            © 2026 Would You Survive? — Made by Nikan Studio
+
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
